@@ -2,16 +2,16 @@
 class Gitwrk < Formula
   desc "A small CLI tool that helps you with monthly reports by extracting working hours directly from git repository."
   homepage "https://github.com/unravela/gitwrk"
-  version "1.0.9"
+  version "1.0.10"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/unravela/gitwrk/releases/download/v1.0.9/gitwrk_1.0.9_Darwin_x86_64.tar.gz"
-    sha256 "90eb17b43920ed8ce6d1c0abfbd53ac0f57ec2cdd9d63570547b8c1da0b1c906"
+    url "https://github.com/unravela/gitwrk/releases/download/v1.0.10/gitwrk_1.0.10_Darwin_x86_64.tar.gz"
+    sha256 "f81a8f00c9815e031fc89bdb7040f156bfc4fd595a40091567dabcb229c7fa20"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/unravela/gitwrk/releases/download/v1.0.9/gitwrk_1.0.9_Linux_x86_64.tar.gz"
-      sha256 "369f0ef53a84ba5508984b4c3dbc18aa41171bdba0dad177c10cf96ae17b4c3c"
+      url "https://github.com/unravela/gitwrk/releases/download/v1.0.10/gitwrk_1.0.10_Linux_x86_64.tar.gz"
+      sha256 "c85b5fa328b5fcf55a37ceeb116591b036fbae01eadd5abbeabb571b41417783"
     end
   end
 
