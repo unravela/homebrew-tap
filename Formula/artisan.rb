@@ -2,16 +2,16 @@
 class Artisan < Formula
   desc "The build orchestrator for monorepositories and complex codebases"
   homepage "https://github.com/unravela/artisan"
-  version "0.0.8"
+  version "0.0.9"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/unravela/artisan/releases/download/v0.0.8/artisan_0.0.8_Darwin_x86_64.tar.gz"
-    sha256 "fc2804c924a641946a646ab244f16de66514a33d8a91ac5f7827f02ecfad19c7"
+    url "https://github.com/unravela/artisan/releases/download/v0.0.9/artisan_0.0.9_Darwin_x86_64.tar.gz"
+    sha256 "913af8c74ba675f745a41a4b83aafdea915094653da157ba7fec467702033cc2"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/unravela/artisan/releases/download/v0.0.8/artisan_0.0.8_Linux_x86_64.tar.gz"
-      sha256 "3458d306b7e29e5af5ad8b2dea981dc84a7795bd99d4c162eb8b23c8a6c5e77f"
+      url "https://github.com/unravela/artisan/releases/download/v0.0.9/artisan_0.0.9_Linux_x86_64.tar.gz"
+      sha256 "388d5fcef13efc93853412a4bdce58ab2d7e9341a6450b9fe88ad38e04ddb2b9"
     end
   end
 
